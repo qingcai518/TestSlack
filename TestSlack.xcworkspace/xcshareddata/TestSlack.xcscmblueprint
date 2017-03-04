@@ -1,0 +1,57 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "369633A5D99E7F97AB9DF9B21087D88A80E49B5E" : 9223372036854775807,
+    "5AE9757EA592451FF40A9A7DC619A040359A2554" : 9223372036854775807,
+    "30DFB27EEBBDF289B73285E59C08F187ED118822" : 9223372036854775807,
+    "F8978B57F4BB1E52F6B40AD309C00DD4B95490E0" : 9223372036854775807,
+    "895D0AABD8404F9152380564F405C40264D75392" : 9223372036854775807,
+    "669C7F29118126EF834C0FF17F84F428B3EC297F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C101ADA9-40EE-433B-A467-2B43C57C28F2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "369633A5D99E7F97AB9DF9B21087D88A80E49B5E" : "MenuReader\/",
+    "5AE9757EA592451FF40A9A7DC619A040359A2554" : "alpha\/",
+    "30DFB27EEBBDF289B73285E59C08F187ED118822" : "trySwift2017-SwiftyChat\/",
+    "F8978B57F4BB1E52F6B40AD309C00DD4B95490E0" : "MyReader_ios\/",
+    "895D0AABD8404F9152380564F405C40264D75392" : "sns_ios\/",
+    "669C7F29118126EF834C0FF17F84F428B3EC297F" : "admatrix_ios_demo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TestSlack",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TestSlack.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:d-date\/trySwift2017-SwiftyChat.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "30DFB27EEBBDF289B73285E59C08F187ED118822"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:qingcai518\/MenuReader.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "369633A5D99E7F97AB9DF9B21087D88A80E49B5E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mountainKaku\/alpha.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5AE9757EA592451FF40A9A7DC619A040359A2554"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:FullSpeedInc\/admatrix_ios_demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "669C7F29118126EF834C0FF17F84F428B3EC297F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:happy-planet\/sns_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "895D0AABD8404F9152380564F405C40264D75392"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:qingcai518\/MyReader_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F8978B57F4BB1E52F6B40AD309C00DD4B95490E0"
+    }
+  ]
+}

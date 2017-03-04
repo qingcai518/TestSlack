@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="G7O-kI-ymu">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TestSlack" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wc-Cu-vLm">
+                                <rect key="frame" x="127" y="308.5" width="120" height="50"/>
+                                <color key="backgroundColor" red="0.21868579169999999" green="0.31938256999999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="38O-Xm-ddh"/>
+                                    <constraint firstAttribute="width" constant="120" id="wzu-aZ-5x8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Start Chat">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doStart" destination="BYZ-38-t0r" eventType="touchUpInside" id="c0d-aE-yb1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1wc-Cu-vLm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0pM-90-JiH"/>
+                            <constraint firstItem="1wc-Cu-vLm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fg2-T9-dyk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="dEc-QN-cmD"/>
+                    <connections>
+                        <outlet property="startBtn" destination="1wc-Cu-vLm" id="DML-YQ-0J0"/>
+                        <segue destination="SPn-JP-qak" kind="show" identifier="ToUsers" id="ETC-HD-vBO"/>
+                        <segue destination="dds-CR-fVf" kind="show" identifier="ToName" id="RkW-DF-a32"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="230" y="-51"/>
+        </scene>
+        <!--Users-->
+        <scene sceneID="Il9-nz-xdv">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Users" id="SPn-JP-qak" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Foq-fc-xDW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="951" y="-210"/>
+        </scene>
+        <!--Name-->
+        <scene sceneID="jUL-oT-J8M">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Name" id="dds-CR-fVf" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1MV-0m-wWU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="879" y="12"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Drz-8V-ymG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="G7O-kI-ymu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qqh-lG-DcC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="94j-vZ-ZPx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x81-Za-lkK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-639.20000000000005" y="-50.824587706146929"/>
+        </scene>
+    </scenes>
+</document>
